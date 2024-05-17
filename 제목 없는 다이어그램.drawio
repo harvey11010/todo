@@ -1,14 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2024-05-17T01:49:43.311Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="egedTS06PJulA6QihWdd" version="24.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-17T01:57:54.465Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Yc2eJ6dugCjlHD_bko87" version="24.4.3" type="github">
   <diagram name="페이지-1" id="l7HjvUp2uGFI3CTmgFea">
-    <mxGraphModel dx="1434" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2876" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Hpf7vBDQ80WpxHnYikSg-3" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;TODO&lt;/font&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="40" y="130" width="580" height="340" as="geometry" />
+        <mxCell id="Hpf7vBDQ80WpxHnYikSg-18" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="265" width="640" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="Hpf7vBDQ80WpxHnYikSg-4" value="&lt;font size=&quot;1&quot; face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;&lt;b style=&quot;font-size: 19px;&quot;&gt;1.Id(PK)(Long)&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;b style=&quot;text-wrap: wrap; font-family: &amp;quot;Pretendard Std&amp;quot;, Pretendard, &amp;quot;Pretendard JP&amp;quot;, -apple-system, blinkmacsystemfont, system-ui, roboto, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; background-color: initial; font-size: 19px;&quot;&gt;2.To-do-title(String)&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;font size=&quot;1&quot; face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;&lt;b style=&quot;font-size: 19px;&quot;&gt;3.To-do-content(String)&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot; face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;&lt;b style=&quot;font-size: 19px;&quot;&gt;4.Writer(String)&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot; face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;&lt;b style=&quot;font-size: 19px;&quot;&gt;5.Password(String)&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot; face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;span style=&quot;text-wrap: wrap;&quot;&gt;&lt;b style=&quot;font-size: 19px;&quot;&gt;6.CreatedAt(DateTime)&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;fontColor=default;" vertex="1" parent="Hpf7vBDQ80WpxHnYikSg-3">
-          <mxGeometry y="50" width="580" height="290" as="geometry" />
+        <mxCell id="Hpf7vBDQ80WpxHnYikSg-3" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;TODO&lt;/font&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="210" width="410" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Hpf7vBDQ80WpxHnYikSg-7" value="1.Id(PrimaryKey) (Long) &#xa;2. To-do title (String) &#xa;3. To-do content (String) &#xa;4. Writer (String) &#xa;5. Password (String) &#xa;6. CreatedAt (DateTime)" style="text;whiteSpace=wrap;align=center;fontSize=19;" vertex="1" parent="Hpf7vBDQ80WpxHnYikSg-3">
+          <mxGeometry y="50" width="410" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="Hpf7vBDQ80WpxHnYikSg-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;fontColor=default;" vertex="1" parent="Hpf7vBDQ80WpxHnYikSg-3">
+          <mxGeometry y="340" width="410" height="-120" as="geometry" />
+        </mxCell>
+        <mxCell id="Hpf7vBDQ80WpxHnYikSg-10" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="650" width="190" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Hpf7vBDQ80WpxHnYikSg-11" value="선택한 일정 조회" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hpf7vBDQ80WpxHnYikSg-12" value="일정 목록 조회" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="530" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hpf7vBDQ80WpxHnYikSg-13" value="일정 작성" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hpf7vBDQ80WpxHnYikSg-14" value="선택한 일정 삭제" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="780" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hpf7vBDQ80WpxHnYikSg-15" value="선택한 일정 수정" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hpf7vBDQ80WpxHnYikSg-16" value="비밀번호 확인" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="670" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hpf7vBDQ80WpxHnYikSg-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Hpf7vBDQ80WpxHnYikSg-10" target="Hpf7vBDQ80WpxHnYikSg-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-380" y="740" as="sourcePoint" />
+            <mxPoint x="-330" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hpf7vBDQ80WpxHnYikSg-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Hpf7vBDQ80WpxHnYikSg-10" target="Hpf7vBDQ80WpxHnYikSg-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-370" y="750" as="sourcePoint" />
+            <mxPoint x="-97" y="396" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hpf7vBDQ80WpxHnYikSg-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Hpf7vBDQ80WpxHnYikSg-10" target="Hpf7vBDQ80WpxHnYikSg-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-360" y="760" as="sourcePoint" />
+            <mxPoint x="-87" y="406" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hpf7vBDQ80WpxHnYikSg-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Hpf7vBDQ80WpxHnYikSg-10" target="Hpf7vBDQ80WpxHnYikSg-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-350" y="770" as="sourcePoint" />
+            <mxPoint x="-77" y="416" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hpf7vBDQ80WpxHnYikSg-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Hpf7vBDQ80WpxHnYikSg-10" target="Hpf7vBDQ80WpxHnYikSg-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-340" y="780" as="sourcePoint" />
+            <mxPoint x="-67" y="426" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hpf7vBDQ80WpxHnYikSg-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Hpf7vBDQ80WpxHnYikSg-15" target="Hpf7vBDQ80WpxHnYikSg-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="750" as="sourcePoint" />
+            <mxPoint x="70" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hpf7vBDQ80WpxHnYikSg-35" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Hpf7vBDQ80WpxHnYikSg-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hpf7vBDQ80WpxHnYikSg-36" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;" edge="1" parent="1" source="Hpf7vBDQ80WpxHnYikSg-14" target="Hpf7vBDQ80WpxHnYikSg-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" y="711" as="sourcePoint" />
+            <mxPoint x="290" y="719" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hpf7vBDQ80WpxHnYikSg-37" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Hpf7vBDQ80WpxHnYikSg-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
