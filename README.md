@@ -1,12 +1,14 @@
-![image](https://github.com/harvey11010/todo/assets/167268539/cb5b803d-b9d7-4e6b-9621-666e7592c48f)
+![image](https://github.com/harvey11010/todo/assets/167268539/fcf5a606-ba3b-4372-9ca5-b6acbb0bcffc)
 
 
 
-![image](https://github.com/harvey11010/todo/assets/167268539/20e3e8e1-c617-4dd0-a44d-1f5684364796)
-![image](https://github.com/harvey11010/todo/assets/167268539/f80f7e95-c12d-45ca-b8a3-e4f1b06dfeb5)
-![image](https://github.com/harvey11010/todo/assets/167268539/7f3a4c4c-a0c4-4694-954d-cf47120d4e83)
-![image](https://github.com/harvey11010/todo/assets/167268539/3df78180-418d-4ba3-96ab-56ae903f5355)
-![image](https://github.com/harvey11010/todo/assets/167268539/340812ba-ccd1-490c-a21a-d9d6ad159c6f)
+
+
+
+![image](https://github.com/harvey11010/todo/assets/167268539/898fff25-747e-47ba-86ac-39c1795e14db)
+![image](https://github.com/harvey11010/todo/assets/167268539/ac7e526e-8242-4cf8-bae4-3d6fb7b22728)
+
+
 
 
 ![image](https://github.com/harvey11010/todo/assets/167268539/874e65a1-78a9-4190-b619-307c286e091a)

@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-05-29T08:55:45.079Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="HaoiTKP9HxBSEU-Xm0fL" version="24.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T13:15:52.210Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="g-ww-h07d1Rsm9JvCffJ" version="24.4.9" type="github">
   <diagram name="페이지-1" id="l7HjvUp2uGFI3CTmgFea">
-    <mxGraphModel dx="3217" dy="1370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2739" dy="2198" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Hpf7vBDQ80WpxHnYikSg-18" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="-130" y="65" width="640" height="640" as="geometry" />
+          <mxGeometry x="-130" y="-220" width="1010" height="1010" as="geometry" />
         </mxCell>
         <mxCell id="Hpf7vBDQ80WpxHnYikSg-3" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;TODO&lt;/font&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fontColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-620" y="10" width="410" height="220" as="geometry" />
+          <mxGeometry x="-780" y="-160" width="410" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Hpf7vBDQ80WpxHnYikSg-7" value="1.Id(PrimaryKey) (Long) &#xa;2. To-do title (String) &#xa;3. To-do content (String) &#xa;4. Writer (String) &#xa;5. Password (String) &#xa;6. CreatedAt (DateTime)" style="text;whiteSpace=wrap;align=center;fontSize=19;" parent="Hpf7vBDQ80WpxHnYikSg-3" vertex="1">
           <mxGeometry y="50" width="410" height="290" as="geometry" />
@@ -16,26 +16,26 @@
         <mxCell id="Hpf7vBDQ80WpxHnYikSg-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=center;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;fontColor=default;" parent="Hpf7vBDQ80WpxHnYikSg-3" vertex="1">
           <mxGeometry y="340" width="410" height="-120" as="geometry" />
         </mxCell>
-        <mxCell id="Hpf7vBDQ80WpxHnYikSg-10" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="-560" y="450" width="190" height="250" as="geometry" />
+        <mxCell id="Hpf7vBDQ80WpxHnYikSg-10" value="비회원" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="-710" y="250" width="340" height="450" as="geometry" />
         </mxCell>
         <mxCell id="Hpf7vBDQ80WpxHnYikSg-11" value="선택한 일정 조회" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-90" y="220" width="120" height="80" as="geometry" />
+          <mxGeometry x="-90" y="340" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Hpf7vBDQ80WpxHnYikSg-12" value="일정 목록 조회" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-90" y="330" width="120" height="80" as="geometry" />
+          <mxGeometry x="-90" y="450" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Hpf7vBDQ80WpxHnYikSg-13" value="일정 작성" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-90" y="110" width="120" height="80" as="geometry" />
+          <mxGeometry x="-90" y="230" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Hpf7vBDQ80WpxHnYikSg-14" value="선택한 일정 삭제" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-90" y="580" width="120" height="80" as="geometry" />
+          <mxGeometry x="-90" y="690" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Hpf7vBDQ80WpxHnYikSg-15" value="선택한 일정 수정" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-90" y="460" width="120" height="80" as="geometry" />
+          <mxGeometry x="-90" y="610" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Hpf7vBDQ80WpxHnYikSg-16" value="비밀번호 확인" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="330" y="470" width="120" height="80" as="geometry" />
+        <mxCell id="Hpf7vBDQ80WpxHnYikSg-16" value="로그인" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-90" y="-110" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Hpf7vBDQ80WpxHnYikSg-23" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="Hpf7vBDQ80WpxHnYikSg-10" target="Hpf7vBDQ80WpxHnYikSg-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -73,37 +73,25 @@
             <mxPoint x="120" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Hpf7vBDQ80WpxHnYikSg-35" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="Hpf7vBDQ80WpxHnYikSg-34" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Hpf7vBDQ80WpxHnYikSg-36" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;" parent="1" source="Hpf7vBDQ80WpxHnYikSg-14" target="Hpf7vBDQ80WpxHnYikSg-16" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="40" y="511" as="sourcePoint" />
-            <mxPoint x="340" y="519" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Hpf7vBDQ80WpxHnYikSg-37" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/font&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="Hpf7vBDQ80WpxHnYikSg-36" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="tABRTRX8hD0esTxwLnEx-8" value="SCHEDULE" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="tABRTRX8hD0esTxwLnEx-8" value="SCHEDULE" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-640" y="820" width="220" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="tABRTRX8hD0esTxwLnEx-9" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;b style=&quot;&quot;&gt;Id(PK) &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Long&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;b style=&quot;font-family: &amp;quot;Pretendard Std&amp;quot;, Pretendard, &amp;quot;Pretendard JP&amp;quot;, -apple-system, blinkmacsystemfont, system-ui, roboto, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; font-size: 15px;&quot;&gt;N&lt;/b&gt;&lt;div&gt;&lt;b style=&quot;font-size: 15px; background-color: initial; font-family: &amp;quot;Pretendard Std&amp;quot;, Pretendard, &amp;quot;Pretendard JP&amp;quot;, -apple-system, blinkmacsystemfont, system-ui, roboto, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, sans-serif;&quot;&gt;Title &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;String &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; N&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-family: &amp;quot;Pretendard Std&amp;quot;, Pretendard, &amp;quot;Pretendard JP&amp;quot;, -apple-system, blinkmacsystemfont, system-ui, roboto, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Content &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;String &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; N&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-family: &amp;quot;Pretendard Std&amp;quot;, Pretendard, &amp;quot;Pretendard JP&amp;quot;, -apple-system, blinkmacsystemfont, system-ui, roboto, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Writer &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;String &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; N&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-family: &amp;quot;Pretendard Std&amp;quot;, Pretendard, &amp;quot;Pretendard JP&amp;quot;, -apple-system, blinkmacsystemfont, system-ui, roboto, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Password &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;String &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; N&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-family: &amp;quot;Pretendard Std&amp;quot;, Pretendard, &amp;quot;Pretendard JP&amp;quot;, -apple-system, blinkmacsystemfont, system-ui, roboto, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;CreatedAt LocalDateTime&amp;nbsp; N&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="tABRTRX8hD0esTxwLnEx-8">
+        <mxCell id="tABRTRX8hD0esTxwLnEx-9" value="&lt;font style=&quot;font-size: 15px;&quot; face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;b style=&quot;&quot;&gt;Id(PK) &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Long&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;b style=&quot;font-family: &amp;quot;Pretendard Std&amp;quot;, Pretendard, &amp;quot;Pretendard JP&amp;quot;, -apple-system, blinkmacsystemfont, system-ui, roboto, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; font-size: 15px;&quot;&gt;N&lt;/b&gt;&lt;div&gt;&lt;b style=&quot;font-size: 15px; background-color: initial; font-family: &amp;quot;Pretendard Std&amp;quot;, Pretendard, &amp;quot;Pretendard JP&amp;quot;, -apple-system, blinkmacsystemfont, system-ui, roboto, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, sans-serif;&quot;&gt;Title &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;String &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; N&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-family: &amp;quot;Pretendard Std&amp;quot;, Pretendard, &amp;quot;Pretendard JP&amp;quot;, -apple-system, blinkmacsystemfont, system-ui, roboto, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Content &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;String &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; N&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-family: &amp;quot;Pretendard Std&amp;quot;, Pretendard, &amp;quot;Pretendard JP&amp;quot;, -apple-system, blinkmacsystemfont, system-ui, roboto, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Writer &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;String &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; N&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-family: &amp;quot;Pretendard Std&amp;quot;, Pretendard, &amp;quot;Pretendard JP&amp;quot;, -apple-system, blinkmacsystemfont, system-ui, roboto, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Password &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;String &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; N&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;b style=&quot;font-family: &amp;quot;Pretendard Std&amp;quot;, Pretendard, &amp;quot;Pretendard JP&amp;quot;, -apple-system, blinkmacsystemfont, system-ui, roboto, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;CreatedAt LocalDateTime&amp;nbsp; N&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="tABRTRX8hD0esTxwLnEx-8" vertex="1">
           <mxGeometry y="26" width="220" height="174" as="geometry" />
         </mxCell>
-        <mxCell id="tABRTRX8hD0esTxwLnEx-13" value="COMMENT" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="tABRTRX8hD0esTxwLnEx-13" value="COMMENT" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="-290" y="820" width="220" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="tABRTRX8hD0esTxwLnEx-14" value="&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Id(PK) &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Long &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;N&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Comment &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;String &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;N&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;user_id &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;User &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;N&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;schedule_id Schedule&amp;nbsp; &amp;nbsp;N CreatedAt LocalDateTime N&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="tABRTRX8hD0esTxwLnEx-13">
+        <mxCell id="tABRTRX8hD0esTxwLnEx-14" value="&lt;div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Id(PK) &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Long &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;N&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Comment &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;String &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;N&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;user_id &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;User &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;N&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;schedule_id Schedule&amp;nbsp; &amp;nbsp;N CreatedAt LocalDateTime N&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="tABRTRX8hD0esTxwLnEx-13" vertex="1">
           <mxGeometry y="26" width="220" height="174" as="geometry" />
         </mxCell>
-        <mxCell id="tABRTRX8hD0esTxwLnEx-16" value="USER" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="tABRTRX8hD0esTxwLnEx-16" value="USER" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="30" y="820" width="220" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="tABRTRX8hD0esTxwLnEx-17" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Id(PK) &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Long &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;N Nickname&amp;nbsp; String &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;N username&amp;nbsp; &amp;nbsp;User &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;N&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Password&amp;nbsp; String &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;N&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;b style=&quot;font-size: 15px; font-family: &amp;quot;Pretendard Std&amp;quot;, Pretendard, &amp;quot;Pretendard JP&amp;quot;, -apple-system, blinkmacsystemfont, system-ui, roboto, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Role UserRoleEnum&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;N&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;CreatedAt LocalDateTime N&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="tABRTRX8hD0esTxwLnEx-16">
+        <mxCell id="tABRTRX8hD0esTxwLnEx-17" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Id(PK) &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Long &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;N Nickname&amp;nbsp; String &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;N username&amp;nbsp; &amp;nbsp;User &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;N&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Password&amp;nbsp; String &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;N&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;b style=&quot;font-size: 15px; font-family: &amp;quot;Pretendard Std&amp;quot;, Pretendard, &amp;quot;Pretendard JP&amp;quot;, -apple-system, blinkmacsystemfont, system-ui, roboto, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; background-color: initial;&quot;&gt;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Role UserRoleEnum&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;N&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Pretendard Std, Pretendard, Pretendard JP, -apple-system, blinkmacsystemfont, system-ui, roboto, Helvetica Neue, Segoe UI, Apple SD Gothic Neo, Noto Sans KR, Malgun Gothic, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;CreatedAt LocalDateTime N&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="tABRTRX8hD0esTxwLnEx-16" vertex="1">
           <mxGeometry y="26" width="220" height="174" as="geometry" />
         </mxCell>
-        <mxCell id="tABRTRX8hD0esTxwLnEx-20" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+        <mxCell id="tABRTRX8hD0esTxwLnEx-20" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;startSize=8;endSize=8;curved=1;" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="30" y="930" as="sourcePoint" />
             <mxPoint x="-70" y="930" as="targetPoint" />
@@ -112,11 +100,128 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tABRTRX8hD0esTxwLnEx-19" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;startSize=8;endSize=8;curved=1;entryX=-0.014;entryY=0.466;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="tABRTRX8hD0esTxwLnEx-14">
+        <mxCell id="tABRTRX8hD0esTxwLnEx-19" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;startSize=8;endSize=8;curved=1;entryX=-0.014;entryY=0.466;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="tABRTRX8hD0esTxwLnEx-14" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="-420" y="927" as="sourcePoint" />
             <mxPoint x="-30" y="880" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-1" value="회원" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="110" width="380" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-7" value="댓글 수정" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-8" value="댓글 등록" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="-30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-10" value="일정 목록 조회" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-11" value="회원 가입" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="-200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EK05L-R_AXfd-gQ9V2DS-1" target="EK05L-R_AXfd-gQ9V2DS-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1030" y="411" as="sourcePoint" />
+            <mxPoint x="30" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-6" value="댓글 삭제" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Hpf7vBDQ80WpxHnYikSg-10" target="EK05L-R_AXfd-gQ9V2DS-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-460" y="286" as="sourcePoint" />
+            <mxPoint x="-171" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EK05L-R_AXfd-gQ9V2DS-1" target="Hpf7vBDQ80WpxHnYikSg-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="414" as="sourcePoint" />
+            <mxPoint x="40" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-16" value="계정 확인" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EK05L-R_AXfd-gQ9V2DS-1" target="EK05L-R_AXfd-gQ9V2DS-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1070" y="341" as="sourcePoint" />
+            <mxPoint x="40" y="-60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EK05L-R_AXfd-gQ9V2DS-1" target="EK05L-R_AXfd-gQ9V2DS-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1070" y="353" as="sourcePoint" />
+            <mxPoint x="40" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EK05L-R_AXfd-gQ9V2DS-1" target="Hpf7vBDQ80WpxHnYikSg-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="363" as="sourcePoint" />
+            <mxPoint x="50" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EK05L-R_AXfd-gQ9V2DS-1" target="Hpf7vBDQ80WpxHnYikSg-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1090" y="373" as="sourcePoint" />
+            <mxPoint x="60" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="EK05L-R_AXfd-gQ9V2DS-1" target="Hpf7vBDQ80WpxHnYikSg-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="383" as="sourcePoint" />
+            <mxPoint x="70" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="EK05L-R_AXfd-gQ9V2DS-1" target="EK05L-R_AXfd-gQ9V2DS-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1110" y="393" as="sourcePoint" />
+            <mxPoint x="80" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="EK05L-R_AXfd-gQ9V2DS-1" target="Hpf7vBDQ80WpxHnYikSg-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1120" y="403" as="sourcePoint" />
+            <mxPoint x="90" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EK05L-R_AXfd-gQ9V2DS-1" target="Hpf7vBDQ80WpxHnYikSg-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1130" y="413" as="sourcePoint" />
+            <mxPoint x="100" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Hpf7vBDQ80WpxHnYikSg-16" target="EK05L-R_AXfd-gQ9V2DS-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="340" as="sourcePoint" />
+            <mxPoint x="300" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-30" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="EK05L-R_AXfd-gQ9V2DS-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Hpf7vBDQ80WpxHnYikSg-14" target="EK05L-R_AXfd-gQ9V2DS-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="29" y="743" as="sourcePoint" />
+            <mxPoint x="500" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-32" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="EK05L-R_AXfd-gQ9V2DS-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Hpf7vBDQ80WpxHnYikSg-15" target="EK05L-R_AXfd-gQ9V2DS-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="640" as="sourcePoint" />
+            <mxPoint x="541" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-34" value="&lt;span style=&quot;font-size: 25px;&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="EK05L-R_AXfd-gQ9V2DS-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EK05L-R_AXfd-gQ9V2DS-35" value="비밀번호 확인" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="650" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
