@@ -2,6 +2,7 @@ package com.sparta.schedule.entity;
 
 import com.sparta.schedule.dto.CommentRequestDto;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -22,7 +23,7 @@ public class Comment extends Timestamped {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name="user_id")
-    private User userId;
+    private User user;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name="schedule_id")
@@ -30,12 +31,12 @@ public class Comment extends Timestamped {
 
     public Comment(CommentRequestDto commentRequestDto, User user, Schedule schedule){
         this.comment = commentRequestDto.getComment();
-        this.userId = user;
+        this.user = user;
         this.schedule = schedule;
     }
 
-    public void update(CommentRequestDto commentRequestDto){
-        this.comment = commentRequestDto.getComment();
+    public void update(String comment){
+        this.comment = comment;
     }
 
 }

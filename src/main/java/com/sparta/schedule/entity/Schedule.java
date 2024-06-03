@@ -2,6 +2,7 @@ package com.sparta.schedule.entity;
 
 import com.sparta.schedule.dto.ScheduleRequestDto;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -18,6 +19,7 @@ public class Schedule extends Timestamped {
     private Long id;
 
     @Column(nullable = false, length = 200)
+    @NotBlank
     private String title;
 
     @Column(nullable = false, length = 1000)
@@ -27,6 +29,7 @@ public class Schedule extends Timestamped {
     private String writer;
 
     @Column(nullable = false)
+    @NotBlank
     private String password;
 
     public Schedule(ScheduleRequestDto requestDto) {

@@ -12,6 +12,8 @@ import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.Objects;
+
 @Service
 @RequiredArgsConstructor
 public class CommentService {
@@ -20,6 +22,7 @@ public class CommentService {
     private final UserRepository userRepository;
     private final ScheduleRepository scheduleRepository;
 
+    @Transactional
     public CommentResponseDto createComment(CommentRequestDto requestDto) {
         Schedule schedule = findSchedule(requestDto.getScheduleId());
         User user = findUser(requestDto.getUserId());
@@ -33,13 +36,26 @@ public class CommentService {
         User user = findUser(requestDto.getUserId());
         Comment comment = findComment(id);
 
-        comment.update(requestDto);
+        // 작성자가 동일하지 않는 경우
+        if (!Objects.equals(comment.getUser(), user)) {
+            throw new IllegalArgumentException("작성자만 삭제할 수 있습니다.");
+        }
+
+        comment.update(requestDto.getComment());
 
         return new CommentResponseDto(comment, user, schedule);
     }
 
-    public Long deleteComment(Long id) {
+    @Transactional
+    public Long deleteComment(Long id, CommentRequestDto requestDto) {
         Comment comment = findComment(id);
+
+        User user = findUser(requestDto.getUserId());
+
+        // 작성자가 동일하지 않는 경우
+        if (!Objects.equals(comment.getUser(), user)) {
+            throw new IllegalArgumentException("작성자만 삭제할 수 있습니다.");
+        }
 
         commentRepository.delete(comment);
 
