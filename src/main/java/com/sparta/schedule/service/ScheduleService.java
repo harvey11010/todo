@@ -18,7 +18,6 @@ public class ScheduleService {
         this.scheduleRepository = scheduleRepository;
     }
 
-    @Transactional
     public ScheduleResponseDto createSchedule(ScheduleRequestDto requestDto) {
         Schedule schedule = new Schedule(requestDto);
 
